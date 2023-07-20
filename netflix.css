@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+}
+.Netflix_home{
+    background: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("netflixBG.jpg");
+    height: 100vh; /*viewport height*/
+    background-size: cover;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+#btn1{
+    border: 1px solid white;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+#btn2{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 3px;
+
+}
+.content{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.form input{
+    height: 50px ;
+    width: 400px;
+    
+}
+.form button{
+    padding: 0px 20px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+
